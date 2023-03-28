@@ -1,0 +1,243 @@
+ /*Стиль хедера*/
+body { 
+    /* Местоположение фоновой картинки */ background-image: url(фон.jpeg); 
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */ background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    color: #fff; 
+    background-color: #686767; } 
+    .row>div{ 
+   
+        background-clip: content-box; 
+        min-height: 100px; 
+        }
+    
+        h1{
+            font-size: 6vmax;  
+        }
+        h2{
+            font-size: 4vmax;
+        }
+        p{ 
+            font-size: 1vmax;
+        }
+.header{
+    background-image: url(original\ irjkf.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #e70909; 
+   }
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+   
+   }
+.row {
+
+    border-left: 0;
+    border-right: 0;
+    font-family: 'Caveat', cursive;
+    
+}
+.navbar{
+    font-family: 'ZCOOL KuaiLe', cursive;
+     background:rgb(218, 231, 33);
+   position: fixed;
+     }
+.nav-link , .navbar-brand{ color: #d30808; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #ec4c4c; color: #838383; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:rgb(40, 10, 10) !important;}.navbar{ background:rgb(153, 153, 153);}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #a1dac6; color: #d5d5d5; }
+.navbar-toggler{  background:rgb(218, 9, 9) !important;}
+
+   .description{
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    
+ 
+}
+.description h1{
+ color:rgb(107, 28, 28);
+ font-size: 30px;
+ 
+}
+.description h2{
+    color:rgb(107, 28, 28);
+    font-size: 30px;
+    
+    
+    
+   }
+
+.description{
+    font: size 10px;
+}
+.description p{
+ 
+ color:rgb(3, 28, 255);
+ line-height: 1.5;
+}
+.description input{
+    border-radius: 1px;
+ border:1px  solid rgb(9, 48, 223);
+ background:rgb(4, 129, 245);
+ color:#fff;
+}
+.dost {
+    min-width: 100%;
+    position: relative;
+    margin:auto;
+    text-align: center;
+   }
+
+   .dost p{
+    color:rgb(7, 6, 39);
+    border:2px  solid rgb(18, 2, 48);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px; 
+   }
+   .dost h1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color:rgb(7, 6, 39);
+    margin: 2em;
+    font-size: 10px;
+   }
+   .dost img{
+    width: 100%;
+      
+   }
+   .photo{
+       position: relative; 
+       text-align: center;
+       justify-content: center;
+   }
+   .photosize {
+       font-size: 35px;
+   }
+   .photo h1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color:rgb(13, 5, 41);
+    margin: 2em; 
+    text-align: center;
+   }
+   .photo img{
+     
+     width: 100%;
+     border:1px  solid rgb(2, 2, 2);
+     margin-top: 1em;
+     margin-bottom: 1em;
+   }
+   .plus{
+    margin: 4em 0;
+    position: relative;
+    text-align: center;
+   }
+   .plus img{
+    box-shadow: 0 0 10px #ccc;
+    border:1px  solid rgb(2, 2, 2);
+    border-radius: 10px;
+   }
+   .plus input{
+    color:rgb(10, 247, 247);
+    background-color: rgb(2, 2, 49);
+    border:1px  solid rgb(2, 2, 2);
+   }
+   .plus h1{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color:rgb(23, 4, 44);
+    margin: 2em;
+
+   }
+   .plus h2{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color:rgb(7, 6, 39);
+    margin: 2em;
+   }
+   .plus li{
+    
+    font-size: 30px;
+    color:rgb(251, 255, 41);
+   }
+   .plus fieldset{
+    font-size: 30px;
+    color:rgb(7, 6, 39);
+   }
+   .plus>div{
+    min-height: 100px;
+   }
+   .otziv{
+    margin: 4em 0;
+    position: relative; 
+    text-align: center;
+   }
+   .otziv h1{
+    color:rgb(8, 2, 43);
+    margin: 2em; 
+   }
+   .otzivtitle {
+    color:rgb(8, 2, 43);
+    font-size: 50px;
+    padding-top: 70px;
+   }
+   .otziv h2{
+    color:rgb(8, 2, 43);
+    margin: 2em; 
+   }
+   .otziv .card{
+    
+    box-shadow: 0 0 20px #ccc;
+   }
+   .otziv .card img{
+    width: auto;
+    height: auto;
+   }
+   .otziv .card-title{
+    color:rgb(142, 246, 15);   
+   }
+   .otziv .card-body{
+ 
+    padding: 1em;
+   }
+   .otziv .card-footer{
+       background-color: chartreuse;
+       color:rgb(8, 2, 43);
+   }
+   .jumbotron{ font-size: 30px;
+    background-image: url(ФОНС.jpg);
+    color:rgb(142, 250, 41);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+   }
+.otziv .card-body{
+    font-size: 20px;
+    color:rgb(9, 2, 46);
+    background-color: darkkhaki;
+}  
+.container{
+        color:rgb(164, 240, 42);
+} 
+.container .textarea{
+    background-color:rgb(26, 33, 141);
+    color:rgb(0, 3, 3);
+}
+.container .textblock{
+    background-color:rgb(26, 33, 141);
+    color:rgb(100, 250, 0);
+}
+.schoolTitle {
+    font-family: 'Caveat', cursive;
+}
+
